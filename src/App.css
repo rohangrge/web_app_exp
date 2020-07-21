@@ -4,12 +4,12 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: visibleFill;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
@@ -22,6 +22,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .App-link {
